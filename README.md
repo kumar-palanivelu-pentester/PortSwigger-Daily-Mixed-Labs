@@ -1,20 +1,27 @@
-# PortSwigger Daily Mixed Labs (Fresher Path)
+# PortSwigger Labs Write-ups (Understanding Mode)
 
-**Approach:** Daily 5 labs from different vulnerability categories for better learning.
+Individual lab write-ups with real understanding notes.
 
 ---
 
-## Day 1 Completed
+## Completed Labs
 
-| # | Lab | Category | Score |
-|---|-----|----------|-------|
-| 1 | Information disclosure in error messages | Information Disclosure | 95% |
-| 2 | Username enumeration via different responses | Authentication | 96% |
-| 3 | SQL injection vulnerability in WHERE clause allowing retrieval of hidden data | SQL Injection | 95% |
-| 4 | Reflected XSS into HTML context with nothing encoded | XSS | 98% |
-| 5 | Excessive trust in client-side controls | Business Logic | 95% |
+### Information Disclosure
+- [Information disclosure in error messages](01-information-disclosure-in-error-messages.md)
+
+### Authentication
+- [Username enumeration via different responses](02-username-enumeration-via-different-responses.md)
+
+### SQL Injection
+- [SQL injection vulnerability in WHERE clause allowing retrieval of hidden data](03-sql-injection-where-clause-hidden-data.md)
+
+### Cross-site Scripting (XSS)
+- [Reflected XSS into HTML context with nothing encoded](04-reflected-xss-html-context-nothing-encoded.md)
+
+### Business Logic
+- [Excessive trust in client-side controls](05-excessive-trust-in-client-side-controls.md)
 
 ---
 
 **Author:** Kumar Palanivelu  
-**Focus:** Understanding over copy-paste
+**Style:** Same as Access Control Labs – individual files with understanding
