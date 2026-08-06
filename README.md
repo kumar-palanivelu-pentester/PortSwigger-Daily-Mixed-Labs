@@ -8,15 +8,21 @@ Individual lab write-ups with real understanding notes.
 
 ### Information Disclosure
 - [Information disclosure in error messages](01-information-disclosure-in-error-messages.md)
+- [Information disclosure on debug page](11-information-disclosure-on-debug-page.md)
+- [Source code disclosure via backup files](12-source-code-disclosure-backup-files.md)
 
 ### Authentication
 - [Username enumeration via different responses](02-username-enumeration-via-different-responses.md)
+- [Password reset broken logic](13-password-reset-broken-logic.md)
+- [2FA simple bypass](14-2fa-simple-bypass.md)
 
 ### SQL Injection
 - [SQL injection vulnerability in WHERE clause allowing retrieval of hidden data](03-sql-injection-where-clause-hidden-data.md)
+- [SQL injection vulnerability allowing login bypass](15-sql-injection-login-bypass.md)
 
 ### Cross-site Scripting (XSS)
 - [Reflected XSS into HTML context with nothing encoded](04-reflected-xss-html-context-nothing-encoded.md)
+- [DOM XSS in document.write sink](16-dom-xss-document-write.md)
 
 ### Business Logic
 - [Excessive trust in client-side controls](05-excessive-trust-in-client-side-controls.md)
@@ -29,6 +35,7 @@ Individual lab write-ups with real understanding notes.
 
 ### SSRF
 - [Basic SSRF against the local server](08-basic-ssrf-against-localhost.md)
+- [Basic SSRF against another back-end system](17-basic-ssrf-against-backend-system.md)
 
 ### CORS
 - [CORS vulnerability with basic origin reflection](09-cors-basic-origin-reflection.md)
