@@ -2,6 +2,9 @@
 
 Individual lab write-ups with real understanding notes.
 
+**Learning Path:** OWASP Top 10 + Fresher Job Priority  
+**Current Focus:** Week 2 - SQL Injection
+
 ---
 
 ## Completed Labs
@@ -20,6 +23,9 @@ Individual lab write-ups with real understanding notes.
 ### SQL Injection
 - [SQL injection vulnerability in WHERE clause allowing retrieval of hidden data](03-sql-injection-where-clause-hidden-data.md)
 - [SQL injection vulnerability allowing login bypass](15-sql-injection-login-bypass.md)
+- [SQL injection UNION attack, determining the number of columns](22-sqli-union-determine-columns.md)
+- [SQL injection UNION attack, finding a column containing text](23-sqli-union-find-text-column.md)
+- [SQL injection UNION attack, retrieving data from other tables](24-sqli-union-retrieve-data.md)
 
 ### Cross-site Scripting (XSS)
 - [Reflected XSS into HTML context with nothing encoded](04-reflected-xss-html-context-nothing-encoded.md)
@@ -48,6 +54,9 @@ Individual lab write-ups with real understanding notes.
 
 ### File Upload
 - [Remote code execution via web shell upload](20-rce-via-web-shell-upload.md)
+
+### Access Control
+- Full 12 labs completed (see separate Access Control repo)
 
 ---
 
